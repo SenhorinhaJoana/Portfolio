@@ -42,21 +42,37 @@ section{
     justify-content: flex-end;
     height: 100%;
     margin-left: 50px;
-    margin-bottom: 70px;
+    margin-bottom: 50px;
+    
+    
 }
 
 .section-1 article h1{
     font-size: 60px;
     color: #c7ae6a;
-    
+    text-shadow: 3px 3px 5px black ;
 }
+    
+
 
 .section-1 article h2{
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
+    
    
 }   
-
+.section-1 article h4{
+    position: absolute;
+    font-size: 20px;
+    right: 590px;
+    height: 500px;
+   
+}
+.section-1 article h4 a{
+    color: white;
+    text-decoration: none;
+    text-shadow: 2px 2px 5px black ;
+}
 button a{
     color: white;
     text-decoration: none;
@@ -64,7 +80,7 @@ button a{
 button{
     padding: 10px;
     width: 150px;
-    font-size: 22px;
+    font-size: 15px;
     font-weight: 500;
     border-radius: 20px;
     border: 0;
@@ -75,6 +91,7 @@ button{
     transition: .2s;
     text-decoration: none;
     background-color: #1a1a1a;
+    
     
 }
 
